@@ -1,10 +1,6 @@
-const a = [
-  [1,2,3],
-  [4,5,6]
-]
+import { sum, divide, multiply, substract } from "./lib/calc";
 
-for(let x=0;x<a.length;x++){
-  for(let y=0;y<a[x].length;y++){
-    console.log(a[x][y])
-  }
-}
+console.log(sum(1,1));
+console.log(divide(1,2));
+console.log(multiply(1,3));
+console.log(substract(1,4));
